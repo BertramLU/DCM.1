@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+project(workflow3)
+find_package(PCL 1.10 REQUIRED COMPONENTS)
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+add_executable(workflow3 workflow3.cpp)
+target_link_libraries(workflow3 ${PCL_LIBRARIES})
