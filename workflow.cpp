@@ -465,7 +465,7 @@ int main(int argc,char *argv[])
     denrate = denrate * 0.01;
     
     
-    std::string savepath = "/home/thierry/Downloads/collected-data/reconstruction/workflow3/data/dividedgroup/";
+    std::string savepath = "/home/thierry/Downloads/collected-data/reconstruction/workflow/data/dividedgroup/"; //load path of your initial trajectory and GlobalMap, save path is same as load path 
     
     
     std::cout << "1 FILTER AND ZOOM TRAJECTORY" << std::endl;
